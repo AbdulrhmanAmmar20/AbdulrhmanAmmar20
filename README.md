@@ -16,11 +16,13 @@ I’m a builder who's always been obsessed with the space where a messy real-wor
 
 ### 📦 Smart Warehouse Management System
 A graduation project focused on optimizing logistics using **YOLO-based Computer Vision** and IoT sensors to track inventory in real-time.
-* **Tech:** Python, PyTorch, React, Node.js
+
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
 
 ### 🏋️ AI Fitness Trainer
 A real-time exercise feedback application that uses pose estimation to help users correct their form.
-* **Tech:** MediaPipe, OpenCV, Python
+
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-047FF2?style=flat&logo=google&logoColor=white)
 
 ---
 
@@ -43,18 +45,15 @@ A real-time exercise feedback application that uses pose estimation to help user
 ---
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=AbdulrhmanAmmar20&theme=radical&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://github-readme-stats.vercel.app/api?username=AbdulrhmanAmmar20&theme=radical&hide_border=false&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=AbdulrhmanAmmar20&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AbdulrhmanAmmar20&theme=radical&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=AbdulrhmanAmmar20&theme=radical&hide_border=false&layout=compact)
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=AbdulrhmanAmmar20&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=AbdulrhmanAmmar20&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=AbdulrhmanAmmar20&icon=0&color=0)](https://visitcount.itsvg.in)
