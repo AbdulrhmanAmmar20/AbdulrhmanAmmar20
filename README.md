@@ -12,20 +12,6 @@
 # 💫 About Me:
 I’m a builder who's always been obsessed with the space where a messy real-world problem meets a clean line of code. My journey started at **KFUPM**, where I dove deep into Software Engineering and AI, but it really came to life when I started applying those theories to things people actually touch and use. Whether I was on the ground at **Barri Logistics** redesigning workflows, or late at night fine-tuning a **Computer Vision models** to recognize some objects, I’ve learned that the best tech is the kind that feels invisible because it works so well. I’ve worn a few different hats, from a Teaching Assistant breaking down complex algorithms to a developer building **Smart Warehouse systems**, but the goal is always to move past "it works on my machine" and deliver something that actually moves the needle. For me, it’s not just about the stack (though I’m partial to React and Node), it’s about the story the data tells and the impact the final product leaves behind.
 
-# 🚀 Key Projects:
-
-### 📦 Smart Warehouse Management System
-A graduation project focused on optimizing logistics using **YOLO-based Computer Vision** and IoT sensors to track inventory in real-time.
-
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
-
-### 🏋️ AI Fitness Trainer
-A real-time exercise feedback application that uses pose estimation to help users correct their form.
-
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-047FF2?style=flat&logo=google&logoColor=white)
-
----
-
 <div align="center">
 
 # 💻 Tech Stack:
@@ -42,7 +28,34 @@ A real-time exercise feedback application that uses pose estimation to help user
 ### ⚙️ Tools, DBs & Other
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white) ![Riot Games](https://img.shields.io/badge/riotgames-D32936.svg?style=for-the-badge&logo=riotgames&logoColor=white)
 
+
+</div>
 ---
+
+# 🚀 Key Projects:
+
+### 📦 Smart Warehouse Management System
+A graduation project focused on optimizing logistics using **YOLO-based Computer Vision** and IoT sensors to track inventory in real-time.
+
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
+
+### 🏋️ AI Fitness Trainer
+A real-time exercise feedback application that uses pose estimation to help users correct their form.
+
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-047FF2?style=flat&logo=google&logoColor=white)
+
+---
+
+
+
+
+
+
+
+
+
+<div align="center">
+
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=AbdulrhmanAmmar20&theme=radical&hide_border=false&count_private=true)<br/>
