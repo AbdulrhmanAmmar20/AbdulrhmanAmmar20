@@ -42,7 +42,7 @@ I'm a builder who's always been obsessed with the space where a messy real-world
 
 Whether I was on the ground at **Barri Logistics** redesigning workflows, or late at night fine-tuning a **Computer Vision** model to recognize objects, I've learned that the best tech is the kind that feels invisible because it works so well.
 
-I've worn a few hats — from a **Teaching Assistant** breaking down complex algorithms to a developer building **Smart Warehouse systems** — but the goal is always the same: move past *"it works on my machine"* and deliver something that actually moves the needle.
+I've worn a few hats, from a **Teaching Assistant** breaking down complex algorithms to a developer building **Smart Warehouse systems**, but the goal is always the same: move past *"it works on my machine"* and deliver something that actually moves the needle.
 
 For me it's not just about the stack (though I'm partial to **React** and **Node**), it's about the story the data tells and the impact the final product leaves behind.
 
