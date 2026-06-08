@@ -38,13 +38,13 @@
 
 ## 💫 About Me
 
-I'm a builder who's always been obsessed with the space where a messy real-world problem meets a clean line of code. My journey started at **KFUPM**, where I dove deep into Software Engineering and AI — but it really came to life when I started applying those theories to things people actually touch and use.
+I'm a builder who's always been obsessed with the space where a messy real-world problem meets a clean line of code. My journey started at **KFUPM**, where I dove deep into Software Engineering and AI, but it really came to life when I started applying those theories to things people actually touch and use.
 
 Whether I was on the ground at **Barri Logistics** redesigning workflows, or late at night fine-tuning a **Computer Vision** model to recognize objects, I've learned that the best tech is the kind that feels invisible because it works so well.
 
 I've worn a few hats — from a **Teaching Assistant** breaking down complex algorithms to a developer building **Smart Warehouse systems** — but the goal is always the same: move past *"it works on my machine"* and deliver something that actually moves the needle.
 
-For me it's not just about the stack (though I'm partial to **React** and **Node**) — it's about the story the data tells and the impact the final product leaves behind.
+For me it's not just about the stack (though I'm partial to **React** and **Node**), it's about the story the data tells and the impact the final product leaves behind.
 
 </td>
 <td width="38%" valign="middle" align="center">
@@ -92,9 +92,9 @@ For me it's not just about the stack (though I'm partial to **React** and **Node
 </td>
 <td width="62%" valign="top">
 
-### 🦊 Thaheen — Gamified Learning Platform
+### 🦊 Thaheen: Gamified Learning Platform
 
-An interactive **question-generation and gamified learning** system built to lift university students' academic performance. It tackles a problem every student hits — the shortage of practice questions in core courses — and layers on **Kahoot!-style live events** to make studying genuinely fun. The need was validated through a survey and one-on-one student interviews.
+An interactive **question-generation and gamified learning** system built to lift university students' academic performance. It tackles a problem every student hits, the shortage of practice questions in core courses, and layers on **Kahoot!-style live events** to make studying genuinely fun. The need was validated through a survey and one-on-one student interviews.
 
 Role-based by design: **Admin** (users, settings, analytics dashboard), **Question Master** (content quality, ratings, adding/refining questions), **Regular User / Student** (practice by course & lesson, rate questions, create activities, leaderboards), and **Guest** (browse only).
 
@@ -112,7 +112,7 @@ Role-based by design: **Admin** (users, settings, analytics dashboard), **Questi
 
 ### 🏦 Arabic Bank Check Recognition Pipeline
 
-A **4-stage** Arabic check verification system — **YOLOv8s** field detector → **CRNN-CTC** digit reader → character-level **CRNN** → rule-based cross-verifier — trained on **2,400 checks**. Reached **95.17% digit accuracy**, **9.02% legal CER**, and **82.0% end-to-end accuracy**, beating the **78.5%** paper benchmark through custom **RTL preprocessing** and dictionary post-processing.
+A **4-stage** Arabic check verification system — **YOLOv8s** field detector → **CRNN-CTC** digit reader → character-level **CRNN** → rule-based cross-verifier, trained on **2,400 checks**. Reached **95.17% digit accuracy**, **9.02% legal CER**, and **82.0% end-to-end accuracy**, beating the **78.5%** paper benchmark through custom **RTL preprocessing** and dictionary post-processing.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?style=flat&logo=ultralytics&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 
@@ -127,7 +127,7 @@ A **4-stage** Arabic check verification system — **YOLOv8s** field detector �
 
 ### 🎨 Zero-Shot Object Insertion with Diffusion Models — *StressDoor*
 
-Co-authored research extending **AnyDoor**. Diagnosed a **mask-collapse** preprocessing bottleneck affecting **22%** of stress cases, then trained a **rank-8 LoRA** adapter on **DINOv2** and built a **DINOv2 + CLIP token-fusion** module — lifting harmonization quality from **0.578 → 0.655**.
+Co-authored research extending **AnyDoor**. Diagnosed a **mask-collapse** preprocessing bottleneck affecting **22%** of stress cases, then trained a **rank-8 LoRA** adapter on **DINOv2** and built a **DINOv2 + CLIP token-fusion** module, lifting harmonization quality from **0.578 → 0.655**.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![Diffusers](https://img.shields.io/badge/🤗_Diffusers-FFD21E?style=flat&logoColor=black) ![DINOv2](https://img.shields.io/badge/DINOv2-1877F2?style=flat)
 
@@ -140,9 +140,9 @@ Co-authored research extending **AnyDoor**. Diagnosed a **mask-collapse** prepro
 </td>
 <td width="62%" valign="top">
 
-### 🏭 Smart Warehouse Platform — Senior Capstone
+### 🏭 Smart Warehouse Platform (Senior Capstone)
 
-Leading a **5-member team** building an **AI demand-forecasting** model (**90.7% accuracy**) with computer vision and an **LLM assistant** to cut stockouts for Saudi SMEs (**Vision 2030**). Engineered a real-time **IoT ingestion pipeline** — **ESP32 → MQTT → PostgreSQL** — feeding a **React** dashboard.
+Leading a **5-member team** building an **AI demand-forecasting** model (**90.7% accuracy**) with computer vision and an **LLM assistant** to cut stockouts for Saudi SMEs (**Vision 2030**). Engineered a real-time **IoT ingestion pipeline**, **ESP32 → MQTT → PostgreSQL**, feeding a **React** dashboard.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![PostgreSQL](https://img.shields.io/badge/postgresql-4169E1.svg?style=flat&logo=postgresql&logoColor=white) ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)
 
