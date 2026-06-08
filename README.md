@@ -99,8 +99,9 @@ A real-time exercise feedback app using pose estimation to help users correct th
 ## 🧊 My Year in 3D
 
 <!-- Auto-generated daily by the github-profile-3d-contrib Action (.github/workflows/profile-3d.yml).
-     This image appears only after the workflow has run once. -->
-<img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
+     "night-view" is an animated variant (bars rise + twinkling sky). It appears only after the workflow has run once.
+     Browsers auto-play looping SVG animation when it scrolls into view and pause it when off-screen. -->
+<img width="100%" src="./profile-3d-contrib/profile-night-view.svg" alt="Animated 3D contribution calendar" />
 
 </div>
 
