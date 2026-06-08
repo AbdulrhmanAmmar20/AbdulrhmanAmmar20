@@ -72,7 +72,7 @@ For me it's not just about the stack (though I'm partial to **React** and **Node
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
 #### ⚙️ Tools & Databases
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![NVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/postgresql-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![NVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
 
 </div>
 
@@ -81,15 +81,85 @@ For me it's not just about the stack (though I'm partial to **React** and **Node
 <!-- ===================== PROJECTS ===================== -->
 ## 🚀 Key Projects
 
-### 📦 Smart Warehouse Management System
-A graduation project optimizing logistics using **YOLO-based Computer Vision** and IoT sensors to track inventory in real-time.
+<table>
+<tr>
+<td width="38%" align="center" valign="middle">
+<img src="./assets/proj-thaheen-fox.svg" width="250" alt="Thaheen — animated orange fox mascot" />
+</td>
+<td width="62%" valign="top">
 
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
+### 🦊 Thaheen — Gamified Learning Platform
 
-### 🏋️ AI Fitness Trainer
-A real-time exercise feedback app using pose estimation to help users correct their form.
+An interactive **question-generation and gamified learning** system built to lift university students' academic performance. It tackles a problem every student hits — the shortage of practice questions in core courses — and layers on **Kahoot!-style live events** to make studying genuinely fun. The need was validated through a survey and one-on-one student interviews.
 
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-047FF2?style=flat&logo=google&logoColor=white)
+Role-based by design: **Admin** (users, settings, analytics dashboard), **Question Master** (content quality, ratings, adding/refining questions), **Regular User / Student** (practice by course & lesson, rate questions, create activities, leaderboards), and **Guest** (browse only).
+
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white) ![Gamification](https://img.shields.io/badge/Gamification-22d3ee?style=flat&logoColor=white) ![Web Platform](https://img.shields.io/badge/Web_Platform-0e7490?style=flat)
+&nbsp;[![View UI Design](https://img.shields.io/badge/🎨_Full_UI_Design-Figma-fb7185?style=flat)](https://www.figma.com/design/rZIB6vp0Wnhnrg7UIujsGG/Thaheen.com?node-id=0-1&t=ndxsxZxhVPzdhFBr-1)
+
+</td>
+</tr>
+
+<tr>
+<td width="38%" align="center" valign="middle">
+<img src="./assets/proj-check-ocr.svg" width="250" alt="Arabic bank check recognition pipeline" />
+</td>
+<td width="62%" valign="top">
+
+### 🏦 Arabic Bank Check Recognition Pipeline
+
+A **4-stage** Arabic check verification system — **YOLOv8s** field detector → **CRNN-CTC** digit reader → character-level **CRNN** → rule-based cross-verifier — trained on **2,400 checks**. Reached **95.17% digit accuracy**, **9.02% legal CER**, and **82.0% end-to-end accuracy**, beating the **78.5%** paper benchmark through custom **RTL preprocessing** and dictionary post-processing.
+
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?style=flat&logo=ultralytics&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+
+</td>
+</tr>
+
+<tr>
+<td width="38%" align="center" valign="middle">
+<img src="./assets/proj-diffusion.svg" width="250" alt="Zero-shot object insertion with diffusion models" />
+</td>
+<td width="62%" valign="top">
+
+### 🎨 Zero-Shot Object Insertion with Diffusion Models — *StressDoor*
+
+Co-authored research extending **AnyDoor**. Diagnosed a **mask-collapse** preprocessing bottleneck affecting **22%** of stress cases, then trained a **rank-8 LoRA** adapter on **DINOv2** and built a **DINOv2 + CLIP token-fusion** module — lifting harmonization quality from **0.578 → 0.655**.
+
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![Diffusers](https://img.shields.io/badge/🤗_Diffusers-FFD21E?style=flat&logoColor=black) ![DINOv2](https://img.shields.io/badge/DINOv2-1877F2?style=flat)
+
+</td>
+</tr>
+
+<tr>
+<td width="38%" align="center" valign="middle">
+<img src="./assets/proj-warehouse.svg" width="250" alt="Smart warehouse platform" />
+</td>
+<td width="62%" valign="top">
+
+### 🏭 Smart Warehouse Platform — Senior Capstone
+
+Leading a **5-member team** building an **AI demand-forecasting** model (**90.7% accuracy**) with computer vision and an **LLM assistant** to cut stockouts for Saudi SMEs (**Vision 2030**). Engineered a real-time **IoT ingestion pipeline** — **ESP32 → MQTT → PostgreSQL** — feeding a **React** dashboard.
+
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![PostgreSQL](https://img.shields.io/badge/postgresql-4169E1.svg?style=flat&logo=postgresql&logoColor=white) ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)
+
+</td>
+</tr>
+
+<tr>
+<td width="38%" align="center" valign="middle">
+<img src="./assets/proj-sign-pose.svg" width="250" alt="Pose-based Saudi sign language recognition" />
+</td>
+<td width="62%" valign="top">
+
+### 🤟 Pose-Based Saudi Sign Language Recognition
+
+An end-to-end pipeline translating **continuous 3D skeletal-pose sequences** into **Arabic gloss text** using **BiLSTM / Conformer** encoders with **CTC** decoding. Applied pose normalization and augmentation to handle signer variation, improving sequence-level recognition robustness.
+
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-047FF2?style=flat&logo=google&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ---
 
