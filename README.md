@@ -8,7 +8,7 @@
 <!-- ===================== ANIMATED HEADER ===================== -->
 <div align="center">
   <a href="https://github.com/AbdulrhmanAmmar20">
-    <img src="./assets/header.svg" width="100%" alt="Abdulrahman Ammar — Software Engineer | AI & Computer Vision" />
+    <img src="./assets/header-v2.svg" width="100%" alt="Abdulrahman Ammar — Software Engineer | AI & Computer Vision" />
   </a>
 </div>
 
@@ -88,7 +88,7 @@ For me it's not just about the stack (though I'm partial to **React** and **Node
 <table>
 <tr>
 <td width="38%" align="center" valign="middle">
-<img src="./assets/proj-thaheen-fox.svg" width="250" alt="Thaheen — animated orange fox mascot" />
+<img src="./assets/p-thaheen.svg" width="250" alt="Thaheen — animated orange fox mascot" />
 </td>
 <td width="62%" valign="top">
 
@@ -106,7 +106,7 @@ Role-based by design: **Admin** (users, settings, analytics dashboard), **Questi
 
 <tr>
 <td width="38%" align="center" valign="middle">
-<img src="./assets/proj-check-ocr.svg" width="250" alt="Arabic bank check recognition pipeline" />
+<img src="./assets/p-check.svg" width="250" alt="Arabic bank check recognition pipeline" />
 </td>
 <td width="62%" valign="top">
 
@@ -121,7 +121,7 @@ A **4-stage** Arabic check verification system — **YOLOv8s** field detector �
 
 <tr>
 <td width="38%" align="center" valign="middle">
-<img src="./assets/proj-diffusion.svg" width="250" alt="Zero-shot object insertion with diffusion models" />
+<img src="./assets/p-diffusion.svg" width="250" alt="Zero-shot object insertion with diffusion models" />
 </td>
 <td width="62%" valign="top">
 
@@ -136,7 +136,7 @@ Co-authored research extending **AnyDoor**. Diagnosed a **mask-collapse** prepro
 
 <tr>
 <td width="38%" align="center" valign="middle">
-<img src="./assets/proj-warehouse.svg" width="250" alt="Smart warehouse platform" />
+<img src="./assets/p-warehouse.svg" width="250" alt="Smart warehouse platform" />
 </td>
 <td width="62%" valign="top">
 
@@ -151,7 +151,7 @@ Leading a **5-member team** building an **AI demand-forecasting** model (**90.7%
 
 <tr>
 <td width="38%" align="center" valign="middle">
-<img src="./assets/proj-sign-pose.svg" width="250" alt="Pose-based Saudi sign language recognition" />
+<img src="./assets/p-sign.svg" width="250" alt="Pose-based Saudi sign language recognition" />
 </td>
 <td width="62%" valign="top">
 

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240" fill="none" role="img" aria-label="Smart warehouse platform">
+  <defs>
+    <radialGradient id="wh-halo" cx="0.5" cy="0.5" r="0.55"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <style>
+      @keyframes wh-drop{0%{transform:translateY(-46px);opacity:0}20%{opacity:1}45%{transform:translateY(0)}100%{transform:translateY(0);opacity:1}}
+      @keyframes wh-wave{0%{r:6;opacity:.8}100%{r:30;opacity:0}}
+      @keyframes wh-dash{to{stroke-dashoffset:-40}}
+      .wh-drop{animation:wh-drop 4s ease-in-out infinite}
+      .wh-w1{transform-origin:62px 60px;animation:wh-wave 2.4s ease-out infinite}
+      .wh-w2{transform-origin:62px 60px;animation:wh-wave 2.4s ease-out infinite 1.2s}
+      .wh-line{stroke-dasharray:6 6;animation:wh-dash 1.2s linear infinite}
+      .mono{font-family:"SFMono-Regular",Consolas,monospace}
+    </style>
+  </defs>
+  <rect width="320" height="240" rx="16" fill="#0a0e1a"/>
+  <rect x="1" y="1" width="318" height="238" rx="15" fill="none" stroke="#1b2942"/>
+  <ellipse cx="160" cy="150" rx="140" ry="110" fill="url(#wh-halo)"/>
+  <g>
+    <circle class="wh-w1" cx="62" cy="60" r="6" fill="none" stroke="#67e8f9" stroke-width="2"/>
+    <circle class="wh-w2" cx="62" cy="60" r="6" fill="none" stroke="#67e8f9" stroke-width="2"/>
+    <rect x="52" y="50" width="20" height="20" rx="3" fill="#0e1f33" stroke="#22d3ee"/>
+    <text class="mono" x="62" y="86" text-anchor="middle" font-size="8" fill="#7e93a8">ESP32</text>
+  </g>
+  <g transform="translate(196 44)">
+    <rect x="0" y="0" width="96" height="58" rx="6" fill="#0c1626" stroke="#1b2942"/>
+    <g fill="#22d3ee"><rect x="10" y="34" width="9" height="16"/><rect x="24" y="28" width="9" height="22"/><rect x="38" y="20" width="9" height="30"/><rect x="52" y="24" width="9" height="26"/><rect x="66" y="12" width="9" height="38"/></g>
+    <polyline class="wh-line" points="14,40 28,32 42,24 56,28 70,16 84,14" fill="none" stroke="#fb7185" stroke-width="2"/>
+    <text class="mono" x="48" y="-6" text-anchor="middle" font-size="8" fill="#67e8f9">forecast 90.7%</text>
+  </g>
+  <g stroke="#0a3a4a" stroke-width="1">
+    <g opacity="0.85"><polygon points="120,150 160,128 200,150 160,172" fill="#0e7490"/><polygon points="120,150 160,172 160,210 120,188" fill="#0a5566"/><polygon points="200,150 160,172 160,210 200,188" fill="#0c647a"/></g>
+    <g><polygon points="96,176 126,160 156,176 126,192" fill="#22d3ee"/><polygon points="96,176 126,192 126,218 96,202" fill="#0e7490"/><polygon points="156,176 126,192 126,218 156,202" fill="#13a3bf"/></g>
+    <g><polygon points="166,176 196,160 226,176 196,192" fill="#22d3ee"/><polygon points="166,176 196,192 196,218 166,202" fill="#0e7490"/><polygon points="226,176 196,192 196,218 226,202" fill="#13a3bf"/></g>
+    <g class="wh-drop"><polygon points="131,138 161,122 191,138 161,154" fill="#fb7185"/><polygon points="131,138 161,154 161,178 131,162" fill="#9f3a48"/><polygon points="191,138 161,154 161,178 191,162" fill="#c84d5d"/></g>
+  </g>
+  <text class="mono" x="160" y="232" text-anchor="middle" font-size="9" fill="#7e93a8">IoT &#8594; MQTT &#8594; PostgreSQL &#8594; React</text>
+</svg>
