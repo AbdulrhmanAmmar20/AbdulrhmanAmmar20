@@ -21,6 +21,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Make the 3D animation loop forever
+        run: |
+          for f in profile-3d-contrib/*.svg; do
+            sed -i 's/repeatCount="1"/repeatCount="indefinite"/g' "$f"
+          done
       - name: Commit & Push
         run: |
           git config user.name github-actions
