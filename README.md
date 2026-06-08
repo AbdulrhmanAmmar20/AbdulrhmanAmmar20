@@ -62,6 +62,10 @@ For me it's not just about the stack (though I'm partial to **React** and **Node
 
 ## 💻 Tech Stack
 
+<img src="./assets/skill-tree.svg" width="100%" alt="Animated RPG-style tech skill tree" />
+
+<sub>🌳 A skill tree that lights up as each branch unlocks — full arsenal in the badges below 👇</sub>
+
 #### 🛠️ Languages
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -198,13 +202,3 @@ An end-to-end pipeline translating **continuous 3D skeletal-pose sequences** int
 ![Trophies](https://github-profile-trophy.vercel.app/?username=AbdulrhmanAmmar20&theme=radical&no-frame=false&no-bg=true&margin-w=4&column=7)
 
 ### ✍️ Random Dev Quote
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-</div>
-
----
-
-<div align="center">
-  <i>⚡ "The best tech feels invisible because it works so well."</i>
-</div>

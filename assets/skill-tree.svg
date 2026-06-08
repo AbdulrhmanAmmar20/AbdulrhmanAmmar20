@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="540" viewBox="0 0 1040 540" fill="none" role="img" aria-label="Tech skill tree">
+<defs>
+<radialGradient id="st-halo" cx="0.22" cy="0.5" r="0.7"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.18"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<pattern id="st-grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#13203a" stroke-width="1"/></pattern>
+<filter id="st-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.2"/></filter>
+<style>
+@keyframes st-pulse{0%,100%{opacity:.45;transform:scale(1)}50%{opacity:1;transform:scale(1.18)}}
+@keyframes st-flow{to{stroke-dashoffset:-24}}
+@keyframes st-xp{0%{width:0}60%,100%{width:150px}}
+@keyframes st-blink{0%,60%{opacity:1}80%,100%{opacity:0}}
+.ring{transform-box:fill-box;transform-origin:center;animation:st-pulse 4.2s ease-in-out infinite}
+.flow{stroke-dasharray:5 7;animation:st-flow 1.1s linear infinite}
+.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+.xpbar{animation:st-xp 4s ease-out infinite}
+.cur{animation:st-blink 1s step-end infinite}
+</style>
+</defs>
+<rect width="1040" height="540" rx="16" fill="#0a0e1a"/>
+<rect x="14" y="14" width="1012" height="512" rx="10" fill="url(#st-grid)" opacity="0.5"/>
+<rect x="1" y="1" width="1038" height="538" rx="15" fill="none" stroke="#1b2942"/>
+<ellipse cx="200" cy="270" rx="270" ry="240" fill="url(#st-halo)"/>
+<path d="M126.0 270.0 C215.0 270.0 215.0 75.0 304.0 75.0" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="2" class="flow" fill="none"/>
+<path d="M354.0 75.0 C459.5 75.0 459.5 29.0 565.0 29.0" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M354.0 75.0 C459.5 75.0 459.5 75.0 565.0 75.0" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M354.0 75.0 C459.5 75.0 459.5 121.0 565.0 121.0" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M126.0 270.0 C215.0 270.0 215.0 205.0 304.0 205.0" stroke="#fb7185" stroke-opacity="0.5" stroke-width="2" class="flow" fill="none"/>
+<path d="M354.0 205.0 C459.5 205.0 459.5 159.0 565.0 159.0" stroke="#fb7185" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M354.0 205.0 C459.5 205.0 459.5 205.0 565.0 205.0" stroke="#fb7185" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M354.0 205.0 C459.5 205.0 459.5 251.0 565.0 251.0" stroke="#fb7185" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M126.0 270.0 C215.0 270.0 215.0 335.0 304.0 335.0" stroke="#34d399" stroke-opacity="0.5" stroke-width="2" class="flow" fill="none"/>
+<path d="M354.0 335.0 C459.5 335.0 459.5 289.0 565.0 289.0" stroke="#34d399" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M354.0 335.0 C459.5 335.0 459.5 335.0 565.0 335.0" stroke="#34d399" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M354.0 335.0 C459.5 335.0 459.5 381.0 565.0 381.0" stroke="#34d399" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M126.0 270.0 C215.0 270.0 215.0 465.0 304.0 465.0" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="2" class="flow" fill="none"/>
+<path d="M354.0 465.0 C459.5 465.0 459.5 419.0 565.0 419.0" stroke="#a78bfa" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M354.0 465.0 C459.5 465.0 459.5 465.0 565.0 465.0" stroke="#a78bfa" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<path d="M354.0 465.0 C459.5 465.0 459.5 511.0 565.0 511.0" stroke="#a78bfa" stroke-opacity="0.35" stroke-width="1.6" class="flow" fill="none"/>
+<circle r="2.6" fill="#22d3ee"><animateMotion dur="2s" begin="0.00s" repeatCount="indefinite" path="M126.0 270.0 C215.0 270.0 215.0 75.0 304.0 75.0"/></circle>
+<circle r="2.6" fill="#22d3ee"><animateMotion dur="2s" begin="0.40s" repeatCount="indefinite" path="M354.0 75.0 C459.5 75.0 459.5 29.0 565.0 29.0"/></circle>
+<circle r="2.6" fill="#22d3ee"><animateMotion dur="2s" begin="0.58s" repeatCount="indefinite" path="M354.0 75.0 C459.5 75.0 459.5 75.0 565.0 75.0"/></circle>
+<circle r="2.6" fill="#22d3ee"><animateMotion dur="2s" begin="0.76s" repeatCount="indefinite" path="M354.0 75.0 C459.5 75.0 459.5 121.0 565.0 121.0"/></circle>
+<circle r="2.6" fill="#fb7185"><animateMotion dur="2s" begin="0.30s" repeatCount="indefinite" path="M126.0 270.0 C215.0 270.0 215.0 205.0 304.0 205.0"/></circle>
+<circle r="2.6" fill="#fb7185"><animateMotion dur="2s" begin="0.70s" repeatCount="indefinite" path="M354.0 205.0 C459.5 205.0 459.5 159.0 565.0 159.0"/></circle>
+<circle r="2.6" fill="#fb7185"><animateMotion dur="2s" begin="0.88s" repeatCount="indefinite" path="M354.0 205.0 C459.5 205.0 459.5 205.0 565.0 205.0"/></circle>
+<circle r="2.6" fill="#fb7185"><animateMotion dur="2s" begin="1.06s" repeatCount="indefinite" path="M354.0 205.0 C459.5 205.0 459.5 251.0 565.0 251.0"/></circle>
+<circle r="2.6" fill="#34d399"><animateMotion dur="2s" begin="0.60s" repeatCount="indefinite" path="M126.0 270.0 C215.0 270.0 215.0 335.0 304.0 335.0"/></circle>
+<circle r="2.6" fill="#34d399"><animateMotion dur="2s" begin="1.00s" repeatCount="indefinite" path="M354.0 335.0 C459.5 335.0 459.5 289.0 565.0 289.0"/></circle>
+<circle r="2.6" fill="#34d399"><animateMotion dur="2s" begin="1.18s" repeatCount="indefinite" path="M354.0 335.0 C459.5 335.0 459.5 335.0 565.0 335.0"/></circle>
+<circle r="2.6" fill="#34d399"><animateMotion dur="2s" begin="1.36s" repeatCount="indefinite" path="M354.0 335.0 C459.5 335.0 459.5 381.0 565.0 381.0"/></circle>
+<circle r="2.6" fill="#a78bfa"><animateMotion dur="2s" begin="0.90s" repeatCount="indefinite" path="M126.0 270.0 C215.0 270.0 215.0 465.0 304.0 465.0"/></circle>
+<circle r="2.6" fill="#a78bfa"><animateMotion dur="2s" begin="1.30s" repeatCount="indefinite" path="M354.0 465.0 C459.5 465.0 459.5 419.0 565.0 419.0"/></circle>
+<circle r="2.6" fill="#a78bfa"><animateMotion dur="2s" begin="1.48s" repeatCount="indefinite" path="M354.0 465.0 C459.5 465.0 459.5 465.0 565.0 465.0"/></circle>
+<circle r="2.6" fill="#a78bfa"><animateMotion dur="2s" begin="1.66s" repeatCount="indefinite" path="M354.0 465.0 C459.5 465.0 459.5 511.0 565.0 511.0"/></circle>
+<polygon points="96.0,230.0 130.6,250.0 130.6,290.0 96.0,310.0 61.4,290.0 61.4,250.0" fill="none" stroke="#a5f3fc" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:0.00s" filter="url(#st-glow)"/><polygon points="96.0,236.0 125.4,253.0 125.4,287.0 96.0,304.0 66.6,287.0 66.6,253.0" fill="#0c1626" stroke="#a5f3fc" stroke-width="2"/><text x="96" y="275" text-anchor="middle" class="mono" font-size="15" font-weight="700" fill="#a5f3fc">&lt;/&gt;</text>
+<text x="96" y="224" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#67e8f9">DEV</text>
+<text x="96" y="328" text-anchor="middle" class="mono" font-size="9" fill="#7e93a8">root</text>
+<polygon points="330.0,43.0 357.7,59.0 357.7,91.0 330.0,107.0 302.3,91.0 302.3,59.0" fill="none" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:0.45s" filter="url(#st-glow)"/><polygon points="330.0,49.0 352.5,62.0 352.5,88.0 330.0,101.0 307.5,88.0 307.5,62.0" fill="#0c1626" stroke="#22d3ee" stroke-width="2"/><text x="330" y="79" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#22d3ee">{ }</text>
+<text x="330" y="39" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#22d3ee">Languages</text>
+<polygon points="580.0,8.0 598.2,18.5 598.2,39.5 580.0,50.0 561.8,39.5 561.8,18.5" fill="none" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.00s" filter="url(#st-glow)"/><polygon points="580.0,14.0 593.0,21.5 593.0,36.5 580.0,44.0 567.0,36.5 567.0,21.5" fill="#0c1626" stroke="#22d3ee" stroke-width="2"/><text x="605" y="33" class="mono" font-size="13" fill="#cfe3f5">Python</text>
+<polygon points="580.0,54.0 598.2,64.5 598.2,85.5 580.0,96.0 561.8,85.5 561.8,64.5" fill="none" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.10s" filter="url(#st-glow)"/><polygon points="580.0,60.0 593.0,67.5 593.0,82.5 580.0,90.0 567.0,82.5 567.0,67.5" fill="#0c1626" stroke="#22d3ee" stroke-width="2"/><text x="605" y="79" class="mono" font-size="13" fill="#cfe3f5">TypeScript</text>
+<polygon points="580.0,100.0 598.2,110.5 598.2,131.5 580.0,142.0 561.8,131.5 561.8,110.5" fill="none" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.20s" filter="url(#st-glow)"/><polygon points="580.0,106.0 593.0,113.5 593.0,128.5 580.0,136.0 567.0,128.5 567.0,113.5" fill="#0c1626" stroke="#22d3ee" stroke-width="2"/><text x="605" y="125" class="mono" font-size="13" fill="#cfe3f5">C#</text>
+<polygon points="330.0,173.0 357.7,189.0 357.7,221.0 330.0,237.0 302.3,221.0 302.3,189.0" fill="none" stroke="#fb7185" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:0.57s" filter="url(#st-glow)"/><polygon points="330.0,179.0 352.5,192.0 352.5,218.0 330.0,231.0 307.5,218.0 307.5,192.0" fill="#0c1626" stroke="#fb7185" stroke-width="2"/><text x="330" y="209" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#fb7185">&lt;/&gt;</text>
+<text x="330" y="169" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#fb7185">AI / ML</text>
+<polygon points="580.0,138.0 598.2,148.5 598.2,169.5 580.0,180.0 561.8,169.5 561.8,148.5" fill="none" stroke="#fb7185" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.12s" filter="url(#st-glow)"/><polygon points="580.0,144.0 593.0,151.5 593.0,166.5 580.0,174.0 567.0,166.5 567.0,151.5" fill="#0c1626" stroke="#fb7185" stroke-width="2"/><text x="605" y="163" class="mono" font-size="13" fill="#cfe3f5">PyTorch</text>
+<polygon points="580.0,184.0 598.2,194.5 598.2,215.5 580.0,226.0 561.8,215.5 561.8,194.5" fill="none" stroke="#fb7185" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.22s" filter="url(#st-glow)"/><polygon points="580.0,190.0 593.0,197.5 593.0,212.5 580.0,220.0 567.0,212.5 567.0,197.5" fill="#0c1626" stroke="#fb7185" stroke-width="2"/><text x="605" y="209" class="mono" font-size="13" fill="#cfe3f5">TensorFlow</text>
+<polygon points="580.0,230.0 598.2,240.5 598.2,261.5 580.0,272.0 561.8,261.5 561.8,240.5" fill="none" stroke="#fb7185" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.32s" filter="url(#st-glow)"/><polygon points="580.0,236.0 593.0,243.5 593.0,258.5 580.0,266.0 567.0,258.5 567.0,243.5" fill="#0c1626" stroke="#fb7185" stroke-width="2"/><text x="605" y="255" class="mono" font-size="13" fill="#cfe3f5">scikit-learn</text>
+<polygon points="330.0,303.0 357.7,319.0 357.7,351.0 330.0,367.0 302.3,351.0 302.3,319.0" fill="none" stroke="#34d399" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:0.69s" filter="url(#st-glow)"/><polygon points="330.0,309.0 352.5,322.0 352.5,348.0 330.0,361.0 307.5,348.0 307.5,322.0" fill="#0c1626" stroke="#34d399" stroke-width="2"/><text x="330" y="339" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#34d399">www</text>
+<text x="330" y="299" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#34d399">Web</text>
+<polygon points="580.0,268.0 598.2,278.5 598.2,299.5 580.0,310.0 561.8,299.5 561.8,278.5" fill="none" stroke="#34d399" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.24s" filter="url(#st-glow)"/><polygon points="580.0,274.0 593.0,281.5 593.0,296.5 580.0,304.0 567.0,296.5 567.0,281.5" fill="#0c1626" stroke="#34d399" stroke-width="2"/><text x="605" y="293" class="mono" font-size="13" fill="#cfe3f5">React</text>
+<polygon points="580.0,314.0 598.2,324.5 598.2,345.5 580.0,356.0 561.8,345.5 561.8,324.5" fill="none" stroke="#34d399" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.34s" filter="url(#st-glow)"/><polygon points="580.0,320.0 593.0,327.5 593.0,342.5 580.0,350.0 567.0,342.5 567.0,327.5" fill="#0c1626" stroke="#34d399" stroke-width="2"/><text x="605" y="339" class="mono" font-size="13" fill="#cfe3f5">Next.js</text>
+<polygon points="580.0,360.0 598.2,370.5 598.2,391.5 580.0,402.0 561.8,391.5 561.8,370.5" fill="none" stroke="#34d399" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.44s" filter="url(#st-glow)"/><polygon points="580.0,366.0 593.0,373.5 593.0,388.5 580.0,396.0 567.0,388.5 567.0,373.5" fill="#0c1626" stroke="#34d399" stroke-width="2"/><text x="605" y="385" class="mono" font-size="13" fill="#cfe3f5">Node.js</text>
+<polygon points="330.0,433.0 357.7,449.0 357.7,481.0 330.0,497.0 302.3,481.0 302.3,449.0" fill="none" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:0.81s" filter="url(#st-glow)"/><polygon points="330.0,439.0 352.5,452.0 352.5,478.0 330.0,491.0 307.5,478.0 307.5,452.0" fill="#0c1626" stroke="#a78bfa" stroke-width="2"/><text x="330" y="469" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#a78bfa">#</text>
+<text x="330" y="429" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#a78bfa">Tools</text>
+<polygon points="580.0,398.0 598.2,408.5 598.2,429.5 580.0,440.0 561.8,429.5 561.8,408.5" fill="none" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.36s" filter="url(#st-glow)"/><polygon points="580.0,404.0 593.0,411.5 593.0,426.5 580.0,434.0 567.0,426.5 567.0,411.5" fill="#0c1626" stroke="#a78bfa" stroke-width="2"/><text x="605" y="423" class="mono" font-size="13" fill="#cfe3f5">Docker</text>
+<polygon points="580.0,444.0 598.2,454.5 598.2,475.5 580.0,486.0 561.8,475.5 561.8,454.5" fill="none" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.46s" filter="url(#st-glow)"/><polygon points="580.0,450.0 593.0,457.5 593.0,472.5 580.0,480.0 567.0,472.5 567.0,457.5" fill="#0c1626" stroke="#a78bfa" stroke-width="2"/><text x="605" y="469" class="mono" font-size="13" fill="#cfe3f5">PostgreSQL</text>
+<polygon points="580.0,490.0 598.2,500.5 598.2,521.5 580.0,532.0 561.8,521.5 561.8,500.5" fill="none" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="2" class="ring" style="animation-delay:1.56s" filter="url(#st-glow)"/><polygon points="580.0,496.0 593.0,503.5 593.0,518.5 580.0,526.0 567.0,518.5 567.0,503.5" fill="#0c1626" stroke="#a78bfa" stroke-width="2"/><text x="605" y="515" class="mono" font-size="13" fill="#cfe3f5">Git</text>
+<rect x="824" y="170" width="196" height="220" rx="10" fill="#0c1626" stroke="#1b2942"/>
+<text x="840" y="202" class="mono" font-size="12" font-weight="700" fill="#67e8f9">PLAYER</text>
+<line x1="840" y1="212" x2="1004" y2="212" stroke="#1b2942"/>
+<text x="840" y="234" class="mono" font-size="9" fill="#7e93a8">CLASS</text>
+<text x="840" y="250" class="mono" font-size="12" fill="#cfe3f5">Software Engineer</text>
+<text x="840" y="278" class="mono" font-size="9" fill="#7e93a8">FOCUS</text>
+<text x="840" y="294" class="mono" font-size="12" fill="#cfe3f5">AI - Computer Vision</text>
+<text x="840" y="322" class="mono" font-size="9" fill="#7e93a8">BASE</text>
+<text x="840" y="338" class="mono" font-size="12" fill="#cfe3f5">KFUPM</text>
+<text x="840" y="366" class="mono" font-size="9" fill="#7e93a8">BUILD XP</text>
+<rect x="840" y="374" width="164" height="12" rx="6" fill="#0a0e1a" stroke="#1b2942"/>
+<rect x="840" y="374" height="12" rx="6" fill="#22d3ee" class="xpbar" width="150"/>
+<text x="840" y="410" class="mono" font-size="10" fill="#67e8f9">$ skill --unlock <tspan class="cur" fill="#fb7185">_</tspan></text>
+<text x="520" y="528" text-anchor="middle" class="mono" font-size="10" fill="#7e93a8">// full arsenal in the badges below</text>
+</svg>

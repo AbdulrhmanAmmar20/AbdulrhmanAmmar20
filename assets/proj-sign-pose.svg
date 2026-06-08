@@ -67,5 +67,4 @@
   </g>
 
   <text class="mono" x="160" y="214" text-anchor="middle" font-size="9" fill="#67e8f9">3D pose → BiLSTM / Conformer → CTC</text>
-  <text class="mono" x="160" y="230" text-anchor="middle" font-size="9" fill="#7e93a8">continuous Arabic gloss</text>
-</svg>
+  <text class="mono" x="160" y="230" text-anchor="middle

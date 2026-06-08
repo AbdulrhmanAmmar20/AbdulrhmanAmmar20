@@ -49,4 +49,4 @@ The "🧊 My Year in 3D" section shows `./profile-3d-contrib/profile-night-view.
 ## Notes / tweaks
 
 - **Email:** README keeps your `Abdulrhman.ar@outlook.com` link. Swap if you prefer `ammarkfupm22@gmail.com`.
-- **Typing lines:** edit the `lines=...` part of the `readme-typin
+- **Typing line
