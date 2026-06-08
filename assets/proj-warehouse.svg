@@ -65,5 +65,4 @@
     </g>
   </g>
 
-  <text class="mono" x="160" y="232" text-anchor="middle" font-size="9" fill="#7e93a8">IoT &#8594; MQTT &#8594; PostgreSQL &#8594; React</text>
-</svg>
+  <text class="mono" x="160" y="232" text-anchor="middle" font-size="9" fill="#7e93a

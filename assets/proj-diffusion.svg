@@ -61,5 +61,4 @@
   </g>
 
   <text class="mono" x="160" y="214" text-anchor="middle" font-size="9" fill="#7e93a8">LoRA-8 &#183; token fusion</text>
-  <text class="mono" x="160" y="228" text-anchor="middle" font-size="9" fill="#67e8f9">harmonization 0.578 &#8594; 0.655</text>
-</svg>
+  <text class="mono" x="160" y="228" text-anchor="middle" font-size="9" 
