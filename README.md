@@ -28,6 +28,10 @@
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AbdulrhmanAmmar20)
 [![Profile Views](https://komarev.com/ghpvc/?username=AbdulrhmanAmmar20&style=for-the-badge&color=22d3ee&label=PROFILE+VIEWS)](https://github.com/AbdulrhmanAmmar20)
 
+<br/>
+
+<img src="./assets/dev-3d.svg" width="280" alt="Animated 3D developer character waving" />
+
 </div>
 
 <br/>
@@ -59,12 +63,18 @@ For me it's not just about the stack (though I'm partial to **React** and **Node
 <!-- ===================== INTERACTIVE GAME ===================== -->
 <div align="center">
 
-## 🎮 Play "Detect the Object"
+## 🎮 "Detect the Object" — a CV mini-game I built
 
-A computer-vision-themed mini-game I built — bounding boxes lock onto targets, then fade. Click them before your model loses track. It gets faster. How long can you keep up?
+Bounding boxes lock onto targets, then fade. Click them before your model loses track. It gets faster — how long can you keep up? The preview below runs on a loop; hit **Play** for the full interactive version.
 
 <a href="https://abdulrhmanammar20.github.io/AbdulrhmanAmmar20/game/">
-  <img src="https://img.shields.io/badge/▶_PLAY_NOW-Detect_the_Object-22d3ee?style=for-the-badge&logo=target&logoColor=04121a&labelColor=0a0e1a" alt="Play the game" />
+  <img src="./assets/game-preview.svg" width="80%" alt="Detect the Object — live animated preview" />
+</a>
+
+<br/><br/>
+
+<a href="https://abdulrhmanammar20.github.io/AbdulrhmanAmmar20/game/">
+  <img src="https://img.shields.io/badge/▶_PLAY_NOW-Detect_the_Object-22d3ee?style=for-the-badge&logoColor=04121a&labelColor=0a0e1a" alt="Play the game" />
 </a>
 
 </div>
@@ -104,17 +114,6 @@ A graduation project optimizing logistics using **YOLO-based Computer Vision** a
 A real-time exercise feedback app using pose estimation to help users correct their form.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-047FF2?style=flat&logo=google&logoColor=white)
-
----
-
-<!-- ===================== SNAKE CONTRIBUTION ANIMATION ===================== -->
-<div align="center">
-
-### 🐍 Watch the snake eat my contributions
-
-![Snake animation](https://raw.githubusercontent.com/AbdulrhmanAmmar20/AbdulrhmanAmmar20/output/github-contribution-grid-snake-dark.svg)
-
-</div>
 
 ---
 

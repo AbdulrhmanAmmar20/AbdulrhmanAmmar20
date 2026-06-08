@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="320" viewBox="0 0 360 320" fill="none" role="img" aria-label="Animated 3D developer character waving">
+  <defs>
+    <radialGradient id="d3-halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="d3-plat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13314a"/>
+      <stop offset="1" stop-color="#0a1828"/>
+    </linearGradient>
+    <linearGradient id="d3-hoodie" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="d3-hood2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e7490"/>
+      <stop offset="1" stop-color="#0a4a5c"/>
+    </linearGradient>
+    <style>
+      @keyframes d3-spin   { to { transform: rotate(360deg); } }
+      @keyframes d3-bob    { 0%,100%{ transform: translateY(0); } 50%{ transform: translateY(-9px); } }
+      @keyframes d3-wave   { 0%,100%{ transform: rotate(8deg); } 50%{ transform: rotate(-26deg); } }
+      @keyframes d3-blink  { 0%,92%,100%{ transform: scaleY(1); } 96%{ transform: scaleY(0.1); } }
+      @keyframes d3-float  { 0%{ transform: translateY(0); opacity:0; } 15%{opacity:1;} 100%{ transform: translateY(-70px); opacity:0; } }
+      @keyframes d3-shadow { 0%,100%{ transform: scaleX(1); opacity:.5;} 50%{ transform: scaleX(0.82); opacity:.32;} }
+      .ring   { transform-origin:180px 250px; animation:d3-spin 9s linear infinite; }
+      .figure { transform-origin:180px 175px; animation:d3-bob 3s ease-in-out infinite; }
+      .arm    { transform-origin:222px 150px; animation:d3-wave 1.3s ease-in-out infinite; }
+      .eyes   { transform-origin:180px 92px; animation:d3-blink 4s ease-in-out infinite; }
+      .shadow { transform-origin:180px 270px; animation:d3-shadow 3s ease-in-out infinite; }
+      .f1 { animation:d3-float 4s ease-in-out infinite; }
+      .f2 { animation:d3-float 4s ease-in-out 1.3s infinite; }
+      .f3 { animation:d3-float 4s ease-in-out 2.6s infinite; }
+    </style>
+  </defs>
+
+  <rect width="360" height="320" rx="16" fill="#0a0e1a"/>
+  <rect x="1" y="1" width="358" height="318" rx="15" fill="none" stroke="#1b2942"/>
+  <ellipse cx="180" cy="170" rx="150" ry="150" fill="url(#d3-halo)"/>
+
+  <!-- floating code glyphs -->
+  <g class="mono" font-family="monospace" font-weight="700">
+    <text class="f1" x="86"  y="240" font-size="20" fill="#22d3ee" opacity="0">&lt;/&gt;</text>
+    <text class="f2" x="250" y="230" font-size="18" fill="#fb7185" opacity="0">{ }</text>
+    <text class="f3" x="60"  y="180" font-size="16" fill="#67e8f9" opacity="0">01</text>
+  </g>
+
+  <!-- spinning orbit platform -->
+  <g class="ring">
+    <ellipse cx="180" cy="250" rx="120" ry="40" fill="none" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="2"/>
+    <circle cx="60"  cy="250" r="4" fill="#67e8f9"/>
+    <circle cx="300" cy="250" r="3.5" fill="#fb7185"/>
+    <circle cx="180" cy="210" r="3" fill="#a5f3fc"/>
+  </g>
+
+  <!-- ground shadow -->
+  <ellipse class="shadow" cx="180" cy="270" rx="66" ry="14" fill="#000000" opacity="0.5"/>
+
+  <!-- ===== character ===== -->
+  <g class="figure">
+    <!-- legs -->
+    <rect x="158" y="222" width="18" height="40" rx="8" fill="#1f2a3d"/>
+    <rect x="184" y="222" width="18" height="40" rx="8" fill="#27384f"/>
+    <ellipse cx="166" cy="266" rx="14" ry="7" fill="#0e1f33"/>
+    <ellipse cx="194" cy="266" rx="14" ry="7" fill="#0e1f33"/>
+
+    <!-- torso / hoodie -->
+    <path d="M140 150 Q140 132 162 130 H198 Q220 132 220 150 V214 Q220 226 206 226 H154 Q140 226 140 214 Z" fill="url(#d3-hoodie)"/>
+    <!-- hoodie front shade + zipper -->
+    <path d="M180 130 V226" stroke="#0a4a5c" stroke-width="2" opacity="0.7"/>
+    <path d="M140 150 Q160 168 180 168 Q200 168 220 150 V172 Q200 188 180 188 Q160 188 140 172 Z" fill="url(#d3-hood2)" opacity="0.55"/>
+
+    <!-- left arm (static, hand resting) -->
+    <path d="M146 152 Q126 172 130 200" stroke="url(#d3-hood2)" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="131" cy="204" r="9" fill="#f1c8a6"/>
+
+    <!-- right arm (waving) -->
+    <g class="arm">
+      <path d="M214 150 Q236 138 244 110" stroke="url(#d3-hoodie)" stroke-width="18" stroke-linecap="round" fill="none"/>
+      <circle cx="246" cy="104" r="10" fill="#f3cdac"/>
+    </g>
+
+    <!-- neck -->
+    <rect x="171" y="116" width="18" height="14" rx="5" fill="#e7b894"/>
+
+    <!-- head -->
+    <circle cx="180" cy="92" r="30" fill="#f3cdac"/>
+    <!-- hair -->
+    <path d="M150 90 Q150 58 180 58 Q210 58 210 90 Q210 74 196 70 Q188 80 172 78 Q160 80 158 90 Q154 84 150 90 Z" fill="#1c1208"/>
+    <!-- ears -->
+    <circle cx="150" cy="94" r="5" fill="#e7b894"/>
+    <circle cx="210" cy="94" r="5" fill="#e7b894"/>
+    <!-- eyes -->
+    <g class="eyes">
+      <circle cx="170" cy="92" r="3.4" fill="#15324a"/>
+      <circle cx="191" cy="92" r="3.4" fill="#15324a"/>
+    </g>
+    <!-- smile -->
+    <path d="M170 104 Q180 112 191 104" stroke="#b9744a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <!-- glasses -->
+    <g stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.95">
+      <rect x="162" y="86" width="16" height="12" rx="3"/>
+      <rect x="184" y="86" width="16" height="12" rx="3"/>
+      <path d="M178 90 H184 M162 89 H156 M200 89 H206"/>
+    </g>
+  </g>
+
+  <!-- caption -->
+  <text x="180" y="306" text-anchor="middle" font-family="monospace" font-size="11" fill="#7e93a8">// hello, world 👋</text>
+</svg>
