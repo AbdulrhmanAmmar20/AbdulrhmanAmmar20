@@ -22,7 +22,7 @@
 <!-- ===================== SOCIAL BADGES ===================== -->
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/AbdulrhmanAmmar20)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulrhmanammar/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Abdulrhman.ar@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AbdulrhmanAmmar20)
 [![Profile Views](https://komarev.com/ghpvc/?username=AbdulrhmanAmmar20&style=for-the-badge&color=22d3ee&label=PROFILE+VIEWS)](https://github.com/AbdulrhmanAmmar20)
